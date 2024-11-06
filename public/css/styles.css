@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+}
+
+.left {
+    width: 30%;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+}
+
+.quantity-container-wrapper {
+    width: 100%;
+    background-color: #a9a9a9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.quantity-container input {
+    text-align: center;
+    margin-top: 10px;
+    width: 80px;
+    background-color: #d3d3d3;
+    outline: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.obj1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 20px;
+}
+
+.right {
+    width: 70%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60vw, 1fr));
+    grid-gap: 50px;
+}
+
+.item {
+    background-color: #a9a9a9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.obj3 {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 20px;
+    background-color: #d3d3d3;
+}
